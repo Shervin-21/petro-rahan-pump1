@@ -1,0 +1,30 @@
+@charset "utf-8";
+@font-face{
+    font-family:or;
+    src:url("../font/Ordibehesht.TTF");
+}
+@font-face{
+    font-family:yk;
+    src:url("../font/Yekan.ttf");
+}
+.line{
+
+    margin-top: 40px;
+    font-family: yk;
+    background-color: #ffe514;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 2px;
+    border-radius: 4px;
+    transition: all 0.4s;
+    font-size: 20px;
+
+
+
+
+}
+.line:hover{
+
+    height: 35px;
+    font-size: 22px;
+}

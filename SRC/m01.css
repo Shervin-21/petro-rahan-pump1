@@ -1,0 +1,205 @@
+@charset "utf-8";
+@font-face{
+	font-family: or;
+	src: url("font/Ordibehesht.TTF");
+}
+@font-face{
+	font-family: yk;
+	src: url("font/Yekan.ttf")
+	
+}
+@font-face{
+	font-family:kl;
+	src:url("font/calibrib.ttf");
+}
+.ghb {
+
+	margin: 20px;
+	border: solid 2px #ffbc12;
+	border-radius: 10px;
+	background: linear-gradient(10deg, #333333, #666666);
+	filter: drop-shadow(1px 1px 5px black);
+	transition: all 0.2s;
+
+
+}
+.ghb:hover{
+
+	border: solid 2px #ffbc12;
+	border-radius: 10px;
+	background: linear-gradient(10deg, #333333, #ffd000);
+	filter: drop-shadow(2px 2px 15px black);
+
+
+}
+.navar {
+
+	border: solid 1px #ffbc12;
+	border-radius: 7px;
+	background: linear-gradient(180deg, #666666,#333333);
+	filter: drop-shadow(1px 1px 5px black);
+
+
+
+}
+.img{
+
+	width: 200px;
+	height: 200px;
+	margin-left: 36px;
+	margin-top: 37px;
+	border: solid 2px #9a9a9a;
+	border-radius: 10px;
+	filter: drop-shadow(1px 1px 5px #ffbc12);
+	transition: all 0.5s;
+}
+.img:hover{
+
+	width: 200px;
+	height: 200px;
+	margin-left: 36px;
+	margin-top: 37px;
+	border: solid 2px #9a9a9a;
+	border-radius: 10px;
+
+}
+.border{
+
+
+
+	background-color: white;
+	filter: opacity(90%);
+
+
+
+}
+.line{
+
+	margin-top: 40px;
+	font-family: yk;
+	background-color: #ffc800;
+	margin-left: 4px;
+	margin-right: 4px;
+	height: 2px;
+	border-radius: 4px;
+	transition: all 0.4s;
+	font-size: 20px;
+
+
+
+
+}
+.line:hover{
+
+	height: 35px;
+	font-size: 22px;
+}
+.fontor{
+
+	font-family: or;
+	padding: 0px;
+	margin: 0px;
+}
+.fontyk{font-family: yk;
+
+}
+ul{ width: 420px;
+	list-style-type: none;
+	position: fixed;
+	font-size: 18px;
+	overflow: hidden;
+	background-color: white;
+	border-radius: 10px;
+	margin: 5px;
+	padding: 20px;
+	border: solid 0.5px;
+
+
+
+}
+.mahsool1{
+
+	width: 250px;
+	height: auto;
+	float: right;
+	margin: 25px;
+	transition: all 0.3s;
+}
+.mahsool1:hover{
+	width: 270px;
+
+}
+dd{
+
+font-family: yk;
+
+	float: right;
+	transition: all 0.3s;
+	margin-left: 15px;
+	margin-right: 15px;
+
+
+
+
+}
+dd:hover{
+	 font-size: 115%;
+	filter: drop-shadow(5px 5px 1.9px black);
+
+}
+
+
+
+.pop{
+	float: none;
+
+
+	background: linear-gradient(90deg,#333333,#666666);
+    color: aliceblue;
+	width: 500px;
+	text-align: center;
+	border-radius: 10px;
+	margin: 150px 150px 150px 900px;
+	padding: 0px 10px 8px 0px;
+	transition: all 0.5s;
+}
+.pop:hover{
+
+	background: linear-gradient(90deg,#666666,#333333);
+	width: 540px;
+
+}
+ul1{ width: 200px;
+	text-align: justify;
+	margin: 120px;
+	float: right;
+	display: block;
+	cursor: pointer;
+
+}
+ul2{ width: 380px;
+	text-align: justify;
+	margin: 120px;
+	float: right;
+	display: block;
+	cursor: pointer;
+
+}
+dd dt{
+
+	display: none;
+	float: left;
+}
+h5{
+
+	color: white;
+
+}
+.black{
+	width: 100%;
+	height: 300px;
+	background-color: black;
+	float: top;
+
+}
+

@@ -1,0 +1,51 @@
+.line{
+
+    margin-top: 40px;
+    font-family: yk;
+    background-color: #ffc800;
+    margin-left: 4px;
+    margin-right: 4px;
+    height: 2px;
+    border-radius: 4px;
+    transition: all 0.4s;
+    font-size: 20px;
+
+
+
+
+}
+.line:hover{
+
+    height: 35px;
+    font-size: 22px;
+}
+@font-face{
+    font-family:or;
+    src:url("../font/Ordibehesht.TTF");
+}
+@font-face{
+    font-family:yk;
+    src:url("../font/Yekan.ttf");
+}
+@font-face{
+    font-family:kl;
+    src:url("font/calibrib.ttf");
+}
+p{
+    font-family: yk;
+    font-size: 20px;
+
+}
+.img{
+
+    border: solid 1px black;
+    border-radius: 10px;
+
+}
+.border{
+    background-color: white;
+    margin-top: -10px;
+    filter: opacity(90%);
+}
+
+

@@ -1,0 +1,12 @@
+
+.galery{
+
+    width: 250px;
+    transition: 0.5s;
+
+}
+.galery:hover{
+
+    width: 275px;
+
+}
